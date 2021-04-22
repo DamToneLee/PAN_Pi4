@@ -31,7 +31,7 @@ service bluetooth restart
 echo "bluetooth PAN setting done."
 
 echo "WiFi AP setting"
-cp ./hostapd.conf ~/
+cp ./hostapd.conf /etc/hostapd/hostapd.conf
 echo "WiFi AP setting done."
 echo "all packages installed."
 exit 0
