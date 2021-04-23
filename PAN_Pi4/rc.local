@@ -1,0 +1,5 @@
+#!/bin/sh -e
+#
+# rc.local
+sudo bash /interface_restore.sh
+exit 0
