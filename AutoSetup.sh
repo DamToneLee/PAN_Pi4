@@ -39,7 +39,7 @@ echo "Create OVS bridge"
 ovs-vsctl add-br br0
 ovs-vsctl add-port br0 eth0
 echo "OVS create done."
-cp ./rc.locl /etc/rc.local
+cp ./rc.local /etc/rc.local
 cp ./interface_restore.sh /interface_restore.sh
 chmod 755 /interface_restore.sh
 exit 0
